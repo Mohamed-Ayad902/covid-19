@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_global"
+        android:icon="@drawable/ic_worldwide"
+        android:textColor="@color/colorPrimaryDark"
+        android:title="@string/global"
+        app:cnb_backgroundColor="@color/colorWhite"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+
+    <item
+        android:id="@+id/menu_local"
+        android:icon="@drawable/ic_local"
+        android:textColor="@color/colorPrimaryDark"
+        android:title="@string/local"
+        app:cnb_backgroundColor="@color/colorWhite"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+
+    <item
+        android:id="@+id/menu_question"
+        android:icon="@drawable/ic_question"
+        android:textColor="@color/colorPrimaryDark"
+        android:title="@string/question"
+        app:cnb_backgroundColor="@color/colorWhite"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+
+
+</menu>

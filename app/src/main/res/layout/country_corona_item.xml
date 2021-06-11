@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_3sdp"
+    android:layout_marginVertical="@dimen/_2sdp"
+    android:background="@color/colorBlueLight"
+    android:elevation="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/coronaItem_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Egypt"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/coronaItem_totalCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coronaItem_country"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="cases : 50000"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/coronaItem_todayCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coronaItem_country"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toEndOf="@id/coronaItem_totalCases"
+            android:text="today cases : 101"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/coronaItem_totalDeath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coronaItem_totalCases"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="deaths : 4052"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/coronaItem_todayDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coronaItem_todayCases"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toEndOf="@id/coronaItem_totalDeath"
+            android:text="today deaths : 203"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/coronaItem_recovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coronaItem_totalDeath"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="recovered : 5069"
+            android:textSize="@dimen/_13ssp" />
+
+        <ImageView
+            android:id="@+id/coronaItem_ImageViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coronaItem_todayCases"
+            android:layout_alignTop="@id/coronaItem_todayCases"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            app:tint="@color/colorBlack" />
+
+        <RelativeLayout
+            android:id="@+id/expandedLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coronaItem_recovered"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/home_tv_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/active"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/home_tv_critical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_toEndOf="@id/home_tv_active"
+                android:text="@string/critical"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/home_tv_casesPerOneMillion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_tv_active"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/cases_per_one_million"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/home_tv_deathPerMillion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_tv_critical"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toEndOf="@id/home_tv_casesPerOneMillion"
+                android:text="@string/deaths"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/home_tv_testsPerOneMillion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_tv_casesPerOneMillion"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/tests_million"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/home_tv_totalTests"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_tv_deathPerMillion"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toEndOf="@id/home_tv_testsPerOneMillion"
+                android:text="@string/total_tests"
+                android:textSize="@dimen/_13ssp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

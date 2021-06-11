@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorEndGradient">#2b47b4</color>
+    <color name="colorStartGradient">#557bce</color>
+    <color name="colorCountryButton">#83A2E8</color>
+    <color name="onBoardingSecColor">#3490dc</color>
+    <color name="colorIndicatorImActive">#C2E4FF</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#e3342f</color>
+    <color name="colorBlue">#000b76</color>
+    <color name="colorBlueLight">#6094ED</color>
+    <color name="colorYellow">#f1c540</color>
+    <color name="colorYellowDark">#B88B00</color>
+    <color name="colorYellowLight">#FFE9A6</color>
+    <color name="colorGreen">#00c53f</color>
+    <color name="colorGreenLight">#6FFF5F</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGray">#232323</color>
+
+</resources>

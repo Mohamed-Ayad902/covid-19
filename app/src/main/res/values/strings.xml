@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+
+    // splash items
+    <string name="corona_news_title">Corona news</string>
+    <string name="news_description">Know the total and daily numbers of infected people in your country and around the world</string>
+    <string name="advice">Advice</string>
+    <string name="button_next">Next</string>
+    <string name="button_finish">Finish</string>
+    <string name="advice_description">Get some quick tips that may help you prevent the virus And what to do if you get infected</string>
+    <string name="make_the_world_safe">Make the world safe</string>
+    <string name="no_corona_description">Make the world free of corona again by following precautions and a healthy lifestyle</string>
+    <string name="stay_safe_stay_home">Stay safe , stay home</string>
+    <string name="your_health_deserve">Your health deserves</string>
+
+    // menu items
+    <string name="global">Global</string>
+    <string name="question">Question</string>
+    <string name="local">Local</string>
+
+    // card items
+    <string name="total_cases_adapter">total cases : </string>
+    <string name="total_deaths_adapter">total deaths : </string>
+    <string name="today_deaths_adapter">today : </string>
+    <string name="today_cases_adapter">today : </string>
+    <string name="recovered_adapter">recovered : </string>
+    <string name="active">active :</string>
+    <string name="critical">critical :</string>
+    <string name="cases_per_one_million">cases Per million :</string>
+    <string name="deaths">deaths :</string>
+    <string name="tests_million">tests per million :</string>
+    <string name="total_tests">total :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    // local fragment
+    <string name="total_cases">Total cases</string>
+    <string name="total_death">Total Death</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="stay_home_and_stop_the_count">Stay home and stop the count</string>
+    <string name="select">select</string>
+    <string name="select_your_country">select your country</string>
+    <string name="today_cases">today cases</string>
+    <string name="today_deaths">today deaths</string>
+    <string name="recovered">recovered</string>
+    <string name="local_critical">critical</string>
+    <string name="local_active">active</string>
+    <string name="local_cases_per_one_million">case per million</string>
+    <string name="local_deaths_per_one_million">death per million</string>
+    <string name="local_total_tests">total tests</string>
+    <string name="local_tests_per_one_million">tests per million</string>
+
+    // question tips fragment
+    <string name="symptoms">Symptoms</string>
+    <string name="some_tips">Some tips</string>
+    <string name="loss_of_the_sense_of_smell">loss of the sense of smell</string>
+    <string name="loss_of_the_sense_of_taste">loss of the sense of taste</string>
+    <string name="no_hunger">not wanting to eat</string>
+    <string name="red_eye">extreme fatigue and red eyes</string>
+    <string name="fever">a high temperature does not go down easily</string>
+    <string name="chills">diarrhea and going to the bathroom a lot</string>
+    <string name="ko7a">cough</string>
+    <string name="difficulty_breathing">difficulty breathing and feeling of suffocation</string>
+    <string name="cleaning_spray">disinfect all touchable objects with alcohol</string>
+    <string name="soap">hygienic hand washing for at least ten seconds</string>
+    <string name="social_distancing">leave a distance of 2 meters between you and others</string>
+    <string name="antivirus">maintaining the wearing of a mask reduces the rate of spread of the disease</string>
+    <string name="healthy_eating">get healthy meals full of key nutrients</string>
+    <string name="rest_time">if it is not necessary to go out, there is nothing wrong with giving it up</string>
+    <string name="payment_method">money can also be involved in transmitting the infection, so it is better to sterilize it as well</string>
+    <string name="refilling">if you are infected, you can get some medicines rich in vitamins and some antibiotics</string>
+    <string name="fitness">exercising daily can help prevent infection as well as improve mood</string>
+    <string name="community">corona helped relive family moments and enjoy times with the family \nstay home and stay safe</string>
+
+</resources>
